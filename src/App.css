@@ -1,0 +1,128 @@
+.card-container {
+  background-color: var(--card-bg);
+  padding: 18px;
+  width: 265px;
+  border-radius: 12px;
+  box-shadow: 6px 17px 15px 12px rgba(0, 0, 0, 0.5);
+}
+
+.main_img_container {
+  width: 100%;
+  position: relative;
+}
+
+.equi_img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.equi_img:hover ~ .view_icon_container {
+  opacity: 1;
+}
+
+.view_icon_container {
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 5px);
+  background-color: hsl(178, 100%, 50%, 45%);
+  opacity: 0;
+  pointer-events: none;
+  transition: all ease 0.5s;
+}
+
+.view_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 42px;
+}
+
+.nft-info {
+  margin-top: 15px;
+}
+
+.nft-title {
+  color: var(--white);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nft-title:hover {
+  color: var(--primary-cyan);
+}
+
+.nft-bio {
+  color: var(--primary-soft-blue);
+  font-weight: 300;
+  margin-top: 18px;
+  line-height: 1.6;
+  font-stretch: semi-condensed;
+}
+
+.nft-details {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nft-price p {
+  color: var(--primary-cyan);
+  font-weight: 600;
+}
+
+.nft-time-left {
+  font-size: 15px;
+}
+
+.nft-time-left p {
+  color: var(--primary-soft-blue);
+}
+
+.card-footer {
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-footer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+}
+
+.card-footer p {
+  color: var(--primary-soft-blue);
+}
+
+.card-footer span {
+  color: var(--white);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.card-footer span:hover {
+  color: var(--primary-cyan);
+}
+
+@media screen and (max-width: 377px) {
+  .card-container {
+    width: 240px;
+    padding: 20px;
+  }
+}
