@@ -15,8 +15,8 @@ This is a solution for a challenge from [frontendmentor.io](https://www.frontend
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/mobile-first-nft-preview-card-component-HqMUQiTx0g)
+- Live Site URL: [Live Site](https://nft-preview-card-sr.netlify.app/)
 
 ### Screenshot
 
@@ -40,4 +40,4 @@ This the mobile view the screenshot of the project
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my [solution]().
+A big thank you to anyone providing feedback on my [solution](https://www.frontendmentor.io/solutions/mobile-first-nft-preview-card-component-HqMUQiTx0g).
